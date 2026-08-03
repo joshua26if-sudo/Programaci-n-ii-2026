@@ -38,6 +38,7 @@ public class DesafiosLogicos {
 
             System.out.println();
 
+            //Procesar la opción seleccionada usando switch
             switch (opcion) {
                 case 1:
                     System.out.println("GENERAR UNA SECUENCIA");
@@ -107,7 +108,7 @@ public class DesafiosLogicos {
                         }
 
                         if (numeroIngresado % 5 == 0) {
-                            System.out.println("El número " + numeroIngresado +  "fue ignorado.");
+                            System.out.println("El número " + numeroIngresado +  " fue ignorado.");
                             ignorados++;
                             continue;
                         }
@@ -144,8 +145,48 @@ public class DesafiosLogicos {
                         }
                     }
 
+                    for (int i = 1; i <= altura; i++) {
+                        for (int j = 1; j <= altura - i;  j++) {
+                            System.out.print(" ");
+                        }
+                        for (int k = 1; k <= (2 * i - 1); k++) {
+                            System.out.print("*");
+                        }
+                        System.out.println();
+                    }
+                    break;
 
+                case 5:
+                    System.out.println("VALIDAR PALABRA SECRETA");
+
+                    String palabraIngresada;
+
+                    do {
+                        System.out.println("Ingrese la palabra secreta: ");
+                        palabraIngresada = scanner.nextLine();
+
+                        if (palabraIngresada.trim().equalsIgnoreCase("Guatemala")) {
+                            System.out.println("Palabra correcta.");
+                            break;
+                        } else {
+                            System.out.println("Palabra incorrecta. Intente nuevamente.");
+                        }
+                    } while (true);
+                    break;
+
+                case 6:
+                    System.out.println("Programa finalizado correctamente.");
+                    break;
+
+                default:
+                    System.out.println("Error: opción no válida. Seleccione una opción del 1 al 6.");
+                    break;
             }
-        }
+
+            System.out.println();
+        //Repetir mientras la opción no sea 6
+        } while (opcion != 6);
+
+        scanner.close();
     }
 }

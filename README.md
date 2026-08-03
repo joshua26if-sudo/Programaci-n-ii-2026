@@ -5,7 +5,9 @@ Repositorio del curso Programación II - 2026
 
 Puedes ver la actividad completa en la carpeta: [semana-02-variables-operadores](semana-02-variables-operadores)
 
-## Semana 3 - 
+## Semana 3 - Condiciones y Ciclos 
+
+puedes ver las actividad completa en la carpeta: [semana-03-condiciones-y-ciclos](semana-03-condiciones-y-ciclos)
 
 ## Semana 4 - Control de presupuesto semanal
 
