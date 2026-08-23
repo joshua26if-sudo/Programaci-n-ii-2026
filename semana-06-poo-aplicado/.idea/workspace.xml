@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bc94c46-911b-4a3f-803c-931a9e3b9ccd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/ejercicio-2-evolucion-vetcare-poo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/semana-06-poo-aplicado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/semana-06-poo-aplicado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/semana-06-poo-aplicado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Ave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Mascota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Perro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/semana-06-poo-aplicado.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="9.645055059350992E-142" />
+      <entry key="S2" value="5.572834911473815E-36" />
+      <entry key="S5" value="7.914627343315042E-15" />
+      <entry key="S10" value="8.896426828138941E-8" />
+      <entry key="S30" value="0.004506862011359792" />
+      <entry key="S60" value="0.07412229822513908" />
+      <entry key="M2" value="0.4107444212814861" />
+      <entry key="M5" value="3.0380974033379755" />
+      <entry key="M10" value="9.628874928546164" />
+      <entry key="M15" value="15.146426610174654" />
+      <entry key="M30" value="25.972127983145402" />
+      <entry key="H1" value="38.51641932011235" />
+      <entry key="H2" value="50.68046045076304" />
+      <entry key="H4" value="59.771839511619476" />
+      <entry key="D1" value="69.69430324612804" />
+      <entry key="W1" value="71.66328733205042" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000204" />
+      <entry key="S10" value="1.0000002730517366" />
+      <entry key="S30" value="1.0299901534580835" />
+      <entry key="S60" value="1.723742948641232" />
+      <entry key="M2" value="5.3075277242574" />
+      <entry key="M5" value="18.350686531606428" />
+      <entry key="M10" value="35.58866489859705" />
+      <entry key="M15" value="47.13933375351195" />
+      <entry key="M30" value="66.2488551262237" />
+      <entry key="H1" value="83.7006523937417" />
+      <entry key="H2" value="98.13358381621586" />
+      <entry key="H4" value="108.1394920584148" />
+      <entry key="D1" value="118.6145990512476" />
+      <entry key="W1" value="120.65262523599347" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.00579892019776972" />
+      <entry key="MS500" value="0.357000994921266" />
+      <entry key="S2" value="0.7729783971291766" />
+      <entry key="S5" value="0.9021254660004717" />
+      <entry key="S10" value="0.9498031818958496" />
+      <entry key="S30" value="1.0165511279917978" />
+      <entry key="S60" value="1.7783132481272297" />
+      <entry key="M2" value="5.677570933783001" />
+      <entry key="M5" value="21.314789022497145" />
+      <entry key="M10" value="45.138523477142925" />
+      <entry key="M15" value="62.21419940800053" />
+      <entry key="M30" value="92.16981452374439" />
+      <entry key="H1" value="122.18471348187987" />
+      <entry key="H2" value="148.7951525884728" />
+      <entry key="H4" value="167.90096191875472" />
+      <entry key="D1" value="188.30701453577962" />
+      <entry key="W1" value="192.31563847830787" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IKIpvW7G3VENcKFNJ2iUThUGmN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USUARIO/Documents/GitHub/Programación-ii-2026/semana-06-poo-aplicado",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/USUARIO/Documents/GitHub/Programación-ii-2026/semana-06-poo-aplicado/src/Main.java",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bc94c46-911b-4a3f-803c-931a9e3b9ccd" name="Changes" comment="" />
+      <created>1787507020953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787507020953</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
