@@ -22,4 +22,13 @@ public class Perro extends Mascota {
         System.out.println(
                 getNombre() + ": ¡Guau!");
     }
+
+    @Override
+    public double calcularCostoConsulta() {
+        double costo = 100.00;
+        if (getPesoKg() > 25.0) {
+            costo += 25.00;
+        }
+        return costo;
+    }
 }

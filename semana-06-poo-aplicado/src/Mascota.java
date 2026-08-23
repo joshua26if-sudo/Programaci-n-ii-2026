@@ -11,14 +11,20 @@ public abstract class Mascota {
             int edadMeses,
             double pesoKg) {
 
+        this.codigoPaciente = codigoPaciente;
         this.nombre = nombre;
         this.edadMeses = edadMeses;
+        this.pesoKg = pesoKg;
 
         if (pesoKg > 0) {
             this.pesoKg = pesoKg;
         } else {
             this.pesoKg = 0.1;
         }
+    }
+
+    public String getCodigoPaciente() {
+        return codigoPaciente;
     }
 
     public String getNombre() {
@@ -32,8 +38,6 @@ public abstract class Mascota {
     public double getPesoKg() {
         return pesoKg;
     }
-
-    public String getCodigoPaciente() {return codigoPaciente;}
 
     public void actualizarPeso(double nuevoPeso) {
         if (nuevoPeso > 0) {
@@ -49,14 +53,13 @@ public abstract class Mascota {
     }
 
     public String mostrarInformacion() {
-        return nombre + " | " +
-                edadMeses + " meses | " +
-                pesoKg + " kg";
+        return codigoPaciente + " | "
+                + nombre + " | "
+                + edadMeses + " meses | "
+                + pesoKg + " kg";
     }
 
     public abstract void emitirSonido();
 
-    public void calcularCostoConsulta() {
-
-    }
+    public abstract double calcularCostoConsulta();
 }

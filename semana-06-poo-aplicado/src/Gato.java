@@ -22,4 +22,14 @@ public class Gato extends Mascota {
         System.out.println(
                 getNombre() + ": ¡Miau!");
     }
+
+    @Override
+    public double calcularCostoConsulta() {
+        double costo = 90.00;
+
+        if (!esInterior) {
+            costo += 15.00;
+        }
+        return costo;
+    }
 }

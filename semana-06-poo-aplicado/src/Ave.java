@@ -22,4 +22,15 @@ public class Ave extends Mascota {
         System.out.println(
                 getNombre() + ": ¡Pío, pío!");
     }
+
+    @Override
+    public double calcularCostoConsulta() {
+        double costo = 75.00;
+
+        if ("Exótico".equalsIgnoreCase(tipo)) {
+            costo += 30.00;
+        }
+
+        return costo;
+    }
 }
