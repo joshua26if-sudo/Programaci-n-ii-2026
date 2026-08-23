@@ -10,7 +10,7 @@ public class Main {
                 "Mestiza");
 
         Mascota mascota2 = new Gato(
-                "VET-002"
+                "VET-002",
                 "Milo",
                 24,
                 4.8,
@@ -33,7 +33,7 @@ public class Main {
         mascota1.actualizarPeso(-10);
 
         Mascota mascota3 = new Ave(
-                "VET-003"
+                "VET-003",
                 "Piolín",
                 10,
                 0.4,
