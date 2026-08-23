@@ -12,3 +12,7 @@ puedes ver las actividad completa en la carpeta: [semana-03-condiciones-y-ciclos
 ## Semana 4 - Control de presupuesto semanal
 
 puedes ver las actividad completa en la carpeta: [semana-04-metodos-y-modularizacion](semana-04-metodos-y-modularizacion)
+
+## Semana 5 - Programación Orientada a Objetos
+
+puedes ver las actividad completa en la carpeta: [semana-05-programacion-orientada-a-objetos](semana-05-programacion-orientada-a-objetos)

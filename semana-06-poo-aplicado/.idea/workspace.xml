@@ -5,31 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bc94c46-911b-4a3f-803c-931a9e3b9ccd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/ejercicio-2-evolucion-vetcare-poo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/semana-06-poo-aplicado.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/semana-06-poo-aplicado.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/semana-06-poo-aplicado.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Ave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Gato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Mascota.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/Perro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tarea-05-calculo-de-area-con-poo/src/semana-06-poo-aplicado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/ejercicio-2-evolucion-vetcare-poo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/Ave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/Mascota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio-2-evolucion-vetcare-poo/src/Perro.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,28 +93,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USUARIO/Documents/GitHub/Programación-ii-2026/semana-06-poo-aplicado",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/USUARIO/Documents/GitHub/Programación-ii-2026/semana-06-poo-aplicado/src/Main.java",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO/Documents/GitHub/Programación-ii-2026/semana-06-poo-aplicado&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/USUARIO/Documents/GitHub/Programación-ii-2026/semana-06-poo-aplicado/src/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
