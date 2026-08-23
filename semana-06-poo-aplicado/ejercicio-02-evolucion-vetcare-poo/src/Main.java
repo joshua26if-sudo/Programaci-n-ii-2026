@@ -23,7 +23,15 @@ public class Main {
                 "Piolín",
                 10,
                 0.4,
-                "Canario")
+                "Canario"),
+
+            new Perro(
+                    "VET-004",
+                    "Astro",
+                    12,
+                    13.5,
+                    "Pastor Aleman"
+            )
         };
 
         System.out.println("\n===PACIENTES REGISTRADOS===");
