@@ -6,6 +6,7 @@ public abstract class Mascota {
     private double pesoKg;
 
     public Mascota(
+            String codigoPaciente,
             String nombre,
             int edadMeses,
             double pesoKg) {
