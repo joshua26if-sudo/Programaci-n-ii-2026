@@ -20,7 +20,7 @@ Desarrollar una aplicación que demuestre el uso de:
 
 ## Instrucciones para ejecutar
 1. Compilar: `javac src/*.java`
-2. Ejecutar: `java -cp src Main`
+2. Ejecutar: `java src Main`
 3. Seguir las instrucciones del menú.
 
 ## Resultado esperado
