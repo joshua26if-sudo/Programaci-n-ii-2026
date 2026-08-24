@@ -16,3 +16,7 @@ puedes ver las actividad completa en la carpeta: [semana-04-metodos-y-modulariza
 ## Semana 5 - Programación Orientada a Objetos
 
 puedes ver las actividad completa en la carpeta: [semana-05-programacion-orientada-a-objetos](semana-05-programacion-orientada-a-objetos)
+
+## Semana 6 - Programación Orientada a Objetos Aplicado
+
+puedes ver las actividad completa en la carpeta: [semana-06-poo-aplicado](semana-06-poo-aplicado)
