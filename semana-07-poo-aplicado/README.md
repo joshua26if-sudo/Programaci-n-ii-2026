@@ -1,4 +1,4 @@
-# Semana 6 - Sistema de Figuras Geométricas
+# Semana 7 - Sistema de Figuras Geométricas
 
 ## Descripción
 Aplicación de consola que calcula el área de diferentes figuras geométricas utilizando Programación Orientada a Objetos.
