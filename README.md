@@ -20,3 +20,7 @@ puedes ver las actividad completa en la carpeta: [semana-05-programacion-orienta
 ## Semana 6 - Programación Orientada a Objetos Aplicado
 
 puedes ver las actividad completa en la carpeta: [semana-06-poo-aplicado](semana-06-poo-aplicado)
+
+## Semana 7 - Programación Orientada a Objetos Aplicado
+
+puedes ver las actividad completa en la carpeta: [semana-07-poo-aplicado](semana-07-poo-aplicado)
