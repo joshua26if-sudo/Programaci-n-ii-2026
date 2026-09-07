@@ -143,7 +143,7 @@ public class Main {
         }
 
         //==========================================================================
-        
+
         System.out.println("\n===ACTUALIZACIÓN DE PESO===");
 
         System.out.println("Peso anterior de Luna: " + mascotas.get(0).getPesoKg() + "kg");
