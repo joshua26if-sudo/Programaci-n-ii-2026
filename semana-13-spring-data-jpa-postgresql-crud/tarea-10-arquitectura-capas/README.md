@@ -25,12 +25,12 @@ semana-13-biblioteca-api/
 ├── database/
 │   └── biblioteca.sql
 ├── evidencias/
-│   └── Evidencias_Biblioteca_NombreApellido.docx
+│   └── Universidad Mariano Gálvez de Guatemala.docx
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── com/estudiante/biblioteca/
-│       │       ├── BibliotecaApiApplication.java
+│       │   └── com/umg/tarea10arquitecturacapas/
+│       │       ├── Tarea10ArquitecturaCapasApplication.java
 │       │       ├── controller/
 │       │       │   └── LibroController.java
 │       │       ├── entity/
