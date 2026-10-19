@@ -8,15 +8,32 @@ API REST para administrar los libros de una biblioteca personal con Spring Boot,
 
 Se requiere desarrollar una API REST que permita gestionar la información de los libros de una biblioteca personal. La aplicación debe permitir registrar, consultar, actualizar y eliminar libros, guardando toda la información de forma persistente en una base de datos relacional PostgreSQL. No se permite el uso de listas en memoria como almacenamiento principal.
 
+## Interfaz web
+
+### Dirección para acceder
+
+http://localhost:8080
+
 ## Tecnologías utilizadas
 
+- **HTML5**
+- **CSS personalizado + Bootstrap 5**
+- **JavaScript (Fetch API)**
 - **Java 17**
 - **Spring Boot 3.2.5**
-- **Spring Web** (para los endpoints REST)
-- **Spring Data JPA** (para la persistencia)
-- **PostgreSQL Driver** (conexión a la base de datos)
-- **Maven** (gestor de dependencias)
-- **PostgreSQL 14+** (base de datos)
+- **Spring Web**
+- **Spring Data JPA**
+- **PostgreSQL Driver**
+- **Maven**
+- **PostgreSQL 14+**
+
+### Funcionalidades disponibles
+
+- Consultar todos los libros (GET)
+- Registrar un nuevo libro (POST)
+- Eliminar un libro existente (DELETE)
+- Validaciones básicas del formulario
+- Mensajes de éxito o error
 
 ## Estructura del proyecto
 
@@ -67,15 +84,12 @@ semana-13-biblioteca-api/
 | Eliminar un libro                 | DELETE | `/api/libros/{id}`                  | 204             |
 | Listar libros disponibles         | GET    | `/api/libros/disponibles`           | 200             |
 
-## Instrucciones para ejecutar la aplicación
+## Instrucciones para ejecutar
 
-1. Clonar este repositorio.
-2. Abrir el proyecto en IntelliJ IDEA.
-3. Asegurarse de tener PostgreSQL ejecutándose y la base de datos biblioteca_personal creada.
-4. Configurar la contraseña de PostgreSQL en application.properties.
-5. Ejecutar la clase BibliotecaApiApplication.
-6. La aplicación estará disponible en http://localhost:8080.
-7. Probar los endpoints utilizando Postman o un navegador web.
+1. Asegúrate de que PostgreSQL esté corriendo y la base de datos `biblioteca_personal` exista.
+2. Ejecuta la aplicación Spring Boot.
+3. Abre en tu navegador: http://localhost:8080
+4. Usa el formulario para registrar libros y la tabla para verlos/eliminarlos.
 
 ## Estudiante
 

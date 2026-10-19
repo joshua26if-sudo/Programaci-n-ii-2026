@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Personal</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f6f9;
+        }
+        .header-biblioteca {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 0 0 20px 20px;
+        }
+        .card-custom {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .table-custom th {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+        }
+        .table-custom td {
+            vertical-align: middle;
+            text-align: center;
+        }
+        .btn-eliminar {
+            background-color: #dc3545;
+            color: white;
+            border-radius: 8px;
+        }
+        .btn-eliminar:hover {
+            background-color: #bb2d3b;
+            color: white;
+        }
+        .badge-disponible {
+            background-color: #28a745;
+        }
+        .badge-no-disponible {
+            background-color: #6c757d;
+        }
+        #mensaje {
+            display: none;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado -->
+<div class="header-biblioteca text-center">
+    <h1 class="fw-bold">Biblioteca Personal</h1>
+    <p class="mb-0">Sistema de gestión de libros - Programación II</p>
+</div>
+
+<div class="container pb-5">
+
+    <!-- Mensajes de éxito o error -->
+    <div id="mensaje" class="alert" role="alert"></div>
+
+    <!-- Formulario de registro -->
+    <div class="card card-custom mb-4">
+        <div class="card-body p-4">
+            <h4 class="mb-4 text-primary">Registrar nuevo libro</h4>
+            <form id="formLibro">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label for="codigo" class="form-label">Código *</label>
+                        <input type="text" class="form-control" id="codigo" required maxlength="20">
+                    </div>
+                    <div class="col-md-8">
+                        <label for="titulo" class="form-label">Título *</label>
+                        <input type="text" class="form-control" id="titulo" required maxlength="120">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="autor" class="form-label">Autor *</label>
+                        <input type="text" class="form-control" id="autor" required maxlength="100">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="categoria" class="form-label">Categoría *</label>
+                        <input type="text" class="form-control" id="categoria" required maxlength="50">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="anioPublicacion" class="form-label">Año de publicación *</label>
+                        <input type="number" class="form-control" id="anioPublicacion" required min="1" max="2026" step="1">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="precio" class="form-label">Precio (Q) *</label>
+                        <input type="number" class="form-control" id="precio" required min="0.01" step="0.01">
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="disponible" checked>
+                            <label class="form-check-label" for="disponible">Disponible</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-4 px-4">
+                    💾 Guardar libro
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tabla de libros -->
+    <div class="card card-custom">
+        <div class="card-body p-4">
+            <h4 class="mb-4 text-primary">Libros registrados</h4>
+            <div class="table-responsive">
+                <table class="table table-hover table-custom">
+                    <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Categoría</th>
+                        <th>Año</th>
+                        <th>Precio</th>
+                        <th>Disponibilidad</th>
+                        <th>Acción</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tablaLibros">
+                    <!-- Los libros se cargan dinámicamente aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <p id="sinLibros" class="text-center text-muted mt-3" style="display:none;">
+                No hay libros registrados.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script>
+    const API_URL = '/api/libros';
+
+    document.addEventListener('DOMContentLoaded', () => {
+        cargarLibros();
+        document.getElementById('formLibro').addEventListener('submit', registrarLibro);
+    });
+
+    async function cargarLibros() {
+        try {
+            const respuesta = await fetch(API_URL);
+
+            if (!respuesta.ok) {
+                throw new Error('Error al consultar los libros');
+            }
+
+            const libros = await respuesta.json();
+            const tabla = document.getElementById('tablaLibros');
+            const sinLibros = document.getElementById('sinLibros');
+            tabla.innerHTML = '';
+
+            if (libros.length === 0) {
+                sinLibros.style.display = 'block';
+                return;
+            }
+            sinLibros.style.display = 'none';
+
+            libros.forEach(libro => {
+                const fila = document.createElement('tr');
+                const estadoBadge = libro.disponible
+                    ? '<span class="badge badge-disponible">Disponible</span>'
+                    : '<span class="badge badge-no-disponible">No disponible</span>';
+
+                fila.innerHTML = `
+                        <td><strong>${libro.codigo}</strong></td>
+                        <td>${libro.titulo}</td>
+                        <td>${libro.autor}</td>
+                        <td>${libro.categoria}</td>
+                        <td>${libro.anioPublicacion}</td>
+                        <td>Q${parseFloat(libro.precio).toFixed(2)}</td>
+                        <td>${estadoBadge}</td>
+                        <td>
+                            <button class="btn btn-eliminar btn-sm"
+                                    onclick="eliminarLibro(${libro.id}, '${libro.titulo}')">
+                                🗑 Eliminar
+                            </button>
+                        </td>
+                    `;
+                tabla.appendChild(fila);
+            });
+
+        } catch (error) {
+            mostrarMensaje('No fue posible cargar los libros: ' + error.message, 'danger');
+        }
+    }
+
+    async function registrarLibro(event) {
+        event.preventDefault();
+
+        const libro = {
+            codigo: document.getElementById('codigo').value.trim(),
+            titulo: document.getElementById('titulo').value.trim(),
+            autor: document.getElementById('autor').value.trim(),
+            categoria: document.getElementById('categoria').value.trim(),
+            anioPublicacion: parseInt(document.getElementById('anioPublicacion').value),
+            precio: parseFloat(document.getElementById('precio').value),
+            disponible: document.getElementById('disponible').checked
+        };
+
+        try {
+            const respuesta = await fetch(API_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(libro)
+            });
+
+            if (!respuesta.ok) {
+                throw new Error('El código podría estar duplicado o los datos son inválidos');
+            }
+
+            mostrarMensaje('Libro registrado correctamente.', 'success');
+            document.getElementById('formLibro').reset();
+            document.getElementById('disponible').checked = true;
+            cargarLibros();
+
+        } catch (error) {
+            mostrarMensaje('No fue posible completar la operación: ' + error.message, 'danger');
+        }
+    }
+
+    async function eliminarLibro(id, titulo) {
+        if (!confirm(`¿Desea eliminar el libro "${titulo}"?`)) {
+            return;
+        }
+
+        try {
+            const respuesta = await fetch(`${API_URL}/${id}`, {
+                method: 'DELETE'
+            });
+
+            if (!respuesta.ok) {
+                throw new Error('No se pudo eliminar el libro');
+            }
+
+            mostrarMensaje('Libro eliminado correctamente.', 'success');
+            cargarLibros();
+
+        } catch (error) {
+            mostrarMensaje('No fue posible completar la operación: ' + error.message, 'danger');
+        }
+    }
+
+    function mostrarMensaje(texto, tipo) {
+        const div = document.getElementById('mensaje');
+        div.className = `alert alert-${tipo}`;
+        div.textContent = texto;
+        div.style.display = 'block';
+        setTimeout(() => {
+            div.style.display = 'none';
+        }, 4000);
+    }
+</script>
+</body>
+</html>
